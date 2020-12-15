@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#502A57"
+    tools:context=".EditName">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:background="#C9AECD"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:hint="Player1name"
+                android:layout_weight="1"
+                android:layout_margin="20dp"
+                />
+            <RadioGroup
+               android:id="@+id/radio1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="20dp">
+                <RadioButton
+                    android:id="@+id/radiobtn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="X"
+                    android:textColor="#502A57"
+                    android:textStyle="bold"/>
+                <RadioButton
+                    android:id="@+id/radiobtn2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="O"
+                    android:textColor="#502A57"
+                    android:textStyle="bold"/>
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="200dp"
+      android:orientation="horizontal"
+      android:weightSum="2">
+      <EditText
+      android:id="@+id/editText2"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:hint="Player2 name"
+          android:layout_margin="20dp"/>
+      <RadioGroup
+          android:id="@+id/radio2"
+          android:layout_width="0dp"
+          android:layout_height="wrap_content"
+          android:layout_weight="1"
+          android:layout_margin="20dp">
+          <RadioButton
+              android:id="@+id/radiobtn3"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="X"
+              android:textColor="#502A57"
+              android:textStyle="bold"/>
+          <RadioButton
+              android:id="@+id/radiobtn4"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="O"
+              android:textColor="#502A57"
+              android:textStyle="bold"/>
+
+      </RadioGroup></LinearLayout>
+
+
+
+
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_style"
+            android:textColor="#C9AECD"
+            android:text="Save"
+             />
+    </LinearLayout>
+
+
+</LinearLayout>

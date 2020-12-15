@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyIntent</string>
+    <string-array name="menu">
+        <item>Menu </item>
+        <item>Edit Name</item>
+        <item>How to play?</item>
+        <item>About</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
